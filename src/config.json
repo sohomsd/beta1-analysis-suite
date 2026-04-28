@@ -1,0 +1,65 @@
+{
+    "4GPO": {
+        "name": "Apo", 
+        "psf": "/athena/hwlab/scratch/ssd4004/beta1_analysis/src/psfs/4GPO_assembly.psf", 
+        "wrapped_trajectories": "/athena/hwlab/scratch/ssd4004/beta1_simulations/from_rpi/4GPO_Ensemble/analysis/wrapped_traj/", 
+        "trajectory_format": "xtc", 
+        "num_trajectories": 60
+    }, 
+
+    "2YCW": {
+        "name": "Inverse Agonist", 
+        "psf": "/athena/hwlab/scratch/ssd4004/beta1_analysis/src/psfs/2YCW_assembly.psf", 
+        "wrapped_trajectories": "/athena/hwlab/scratch/ssd4004/beta1_simulations/from_rpi/2YCW_Ensemble/analysis/wrapped_traj/", 
+        "trajectory_format": "xtc", 
+        "num_trajectories": 60
+    },
+
+    "2Y00": {
+        "name": "Partial Agonist", 
+        "psf": "/athena/hwlab/scratch/ssd4004/beta1_analysis/src/psfs/2Y00_assembly.psf", 
+        "wrapped_trajectories": "/athena/hwlab/scratch/ssd4004/beta1_simulations/from_rpi/2Y00_Ensemble/analysis/wrapped_traj/", 
+        "trajectory_format": "xtc", 
+        "num_trajectories": 60
+    }, 
+
+    "2Y03": {
+        "name": "Full Agonist", 
+        "psf": "/athena/hwlab/scratch/ssd4004/beta1_analysis/src/psfs/2Y03_assembly.psf", 
+        "wrapped_trajectories": "/athena/hwlab/scratch/ssd4004/beta1_simulations/from_rpi/2Y03_Ensemble/analysis/wrapped_traj/", 
+        "trajectory_format": "xtc", 
+        "num_trajectories": 60
+    }, 
+
+    "8DCR": {
+        "name": "Partial Agonist + Gs", 
+        "psf": "/athena/hwlab/scratch/ssd4004/beta1_analysis/src/psfs/8DCR_assembly.psf", 
+        "wrapped_trajectories": "/athena/hwlab/scratch/ssd4004/beta1_simulations/from_rpi/8DCR_Ensemble/analysis/wrapped_traj/", 
+        "trajectory_format": "xtc", 
+        "num_trajectories": 60
+    }, 
+
+    "7JJO": {
+        "name": "Full Agonist + Gs", 
+        "psf": "/athena/hwlab/scratch/ssd4004/beta1_analysis/src/psfs/7JJO_assembly.psf", 
+        "wrapped_trajectories": "/athena/hwlab/scratch/ssd4004/beta1_simulations/from_rpi/7JJO_Ensemble/analysis/wrapped_traj/",
+        "trajectory_format": "xtc", 
+        "num_trajectories": 60
+    }, 
+
+    "2Y00_plumed": {
+        "name": "Partial Agonist PLUMED", 
+        "psf": "/athena/hwlab/scratch/ssd4004/beta1_analysis/src/psfs/2Y00_assembly.psf", 
+        "wrapped_trajectories": "/athena/hwlab/scratch/ssd4004/beta1_simulations/2Y00_PLUMED_Ensemble/analysis/wrapped_traj/", 
+        "trajectory_format": "dcd", 
+        "num_trajectories": 4
+    }, 
+
+    "2Y03_plumed": {
+        "name": "Full Agonist PLUMED", 
+        "psf": "/athena/hwlab/scratch/ssd4004/beta1_analysis/src/psfs/2Y03_assembly.psf", 
+        "wrapped_trajectories": "/athena/hwlab/scratch/ssd4004/beta1_simulations/2Y03_PLUMED_Ensemble/analysis/wrapped_traj/", 
+        "trajectory_format": "dcd", 
+        "num_trajectories": 4
+    }
+}
